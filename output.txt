@@ -1,0 +1,20 @@
+Waiting for operation to complete...
+Transcript: how old is the Brooklyn Bridge
+Word: how
+Start time: 0 seconds 0 nanos
+End time: 0 seconds 300000000 nanos
+Word: old
+Start time: 0 seconds 300000000 nanos
+End time: 0 seconds 600000000 nanos
+Word: is
+Start time: 0 seconds 600000000 nanos
+End time: 0 seconds 800000000 nanos
+Word: the
+Start time: 0 seconds 800000000 nanos
+End time: 0 seconds 900000000 nanos
+Word: Brooklyn
+Start time: 0 seconds 900000000 nanos
+End time: 1 seconds 100000000 nanos
+Word: Bridge
+Start time: 1 seconds 100000000 nanos
+End time: 1 seconds 400000000 nanos
