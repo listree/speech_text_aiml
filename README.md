@@ -8,18 +8,24 @@ in the supplied audio.
 
 The program must output words with timestamp in a sequence.  
 
-### Instruction to TradeBees
-Install: pip3 install google-cloud-speech
+### Instructions to use Google Speech
+Install Library: pip3 install google-cloud-speech
 
-Execute: python3 measure.py [--storage_uri "gs://cloud-samples-data/speech/brooklyn_bridge.flac"]
+Convert MP3: visit https://www.zamzar.com/convert/mp3-to-flac/
 
-Convert: visit https://www.zamzar.com/convert/mp3-to-flac/
+Upload File: https://console.cloud.google.com/storage/browser
+
+Set Credential: export GOOGLE_APPLICATION_CREDENTIALS="gcp_credentials.json" 
+
+Run Script: python3 measure.py --storage_uri "gs://tradebees/John-62-1.flac" > John-62-1.output
+
+Check output: cat John-62-1.output
 
 ### References:
 
-https://cloud.google.com/speech-to-text/docs/async-time-offsets
-
 https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9
+
+https://cloud.google.com/speech-to-text/docs/async-time-offsets
 
 https://www.google.com/intl/en/chrome/demos/speech.html
 
